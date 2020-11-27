@@ -6,5 +6,5 @@ router = routers.DefaultRouter()
 router.register('', views.ArticleView)
 
 urlpatterns = [
-   path('v1', include(router.urls))
+   path('v1/', include(router.urls))
 ]
